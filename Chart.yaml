@@ -1,4 +1,4 @@
-apiVersion: v2  # k8s related
+apiVersion: v1  # k8s related
 name: nginx
 version: 0.0.1       # This is Chart version
 appVersion: latest  # This is application version
