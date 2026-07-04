@@ -10,7 +10,7 @@ metadata:
   annotations:
     kubernetes.io/change-cause: "{{ .Values.deployment.changeCause }}"
 spec:
-  replicas: "{{ .Values.deployment.replicas }}"
+  replicas: {{ .Values.deployment.replicas }}
   selector:
   # using these labels replica set selects the pod
     matchLabels:
