@@ -1,6 +1,6 @@
 deployment:
   replicas: 1
-  changeCause: "installing 1.29.8 version"
+  changeCause: "installing 1.29-trixie version"
   imageVersion: "1.29.8"
 
 service:
